@@ -8,3 +8,5 @@ lines.each_with_index do |line, index|
   name = columns[2]
   puts name
 end
+# This solves the problem if the header row were to change in the future. 
+# It assumes that the header row is the first row in the file.
